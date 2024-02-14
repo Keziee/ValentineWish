@@ -282,7 +282,7 @@ const fetchData = () => {
     .then((data) => {
       Object.keys(data).map((customData) => {
         if (data[customData] !== "") {
-          if (customData === "imagePath") {
+          if (customData === "img/Prince") {
             document
               .getElementById(customData)
               .setAttribute("src", data[customData]);
